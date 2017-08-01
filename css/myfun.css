@@ -1,0 +1,50 @@
+/* Comment1: This is external stylesheet for The Fun Christian. Do not Reset*/
+
+
+
+/* Comment2: Selected specific font family to give website a fun, light-hearted, childlike and playful appeal*/
+
+h1 {
+    font-family: 'Lemonada', cursive; 
+    font-size: 2.5em;
+    padding: 25px;
+    color: darkorchid;
+}
+    img {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+      
+ul{
+    font-size: 1.5em;
+    margin-left: 10px;
+    
+        
+}
+
+
+
+
+/*Comment3: Each paragraph is styled for visually-impaired users*/
+
+p {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin:15px;
+    font-size: 2em;
+    }
+
+/*Comment4:Emoji next to each header is formatted for internal linking*/
+
+
+
+
+
+/*Comment5: Email address provided is unclickable because of browser incompatiablity on the internet*/
+
+
+
+
+
