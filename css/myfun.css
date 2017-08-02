@@ -1,6 +1,9 @@
 /* Comment1: This is external stylesheet for The Fun Christian. Do not Reset*/
 
-
+body, html {
+    height: 100%;
+    margin: 25px;
+}
 
 /* Comment2: Selected specific font family to give website a fun, light-hearted, childlike and playful appeal*/
 
@@ -15,15 +18,19 @@ h1 {
     margin: 0 0 10px 10px;
 }
       
-ul{
-    font-size: 1.5em;
-    margin-left: 10px;
-    
-        
+
+
+/*Navigation Settings*/
+
+nav ul  {
+    text-align: center;
+    color:purple;
+    list-style-type: inline-block;
+     }
+
+li {
+    font-size: 1.5em
 }
-
-
-
 
 /*Comment3: Each paragraph is styled for visually-impaired users*/
 
