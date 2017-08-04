@@ -2,9 +2,8 @@
 
 body, html {
     
-    margin: auto;
+    margin: 0;
     background-color:#9acd32;
-    width:auto;
     
 }
 header{
@@ -97,7 +96,7 @@ li {
     margin-right:0.5cm;
 }
  img{
-    padding: 1px;
+    padding: 2px;
     border-style: ridge;
     border-style: outset;
     border-color: #ff0000 #00ff00 #0000ff;
