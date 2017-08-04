@@ -1,8 +1,20 @@
 /* Comment1: This is external stylesheet for The Fun Christian. Do not Reset*/
 
 body, html {
+    
     height: 100%;
-    margin: 25px;
+    margin: 20px;
+    background-color:#9acd32;
+}
+
+p2{
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 100%;
+    
+    
 }
 
 /* Comment2: Selected specific font family to give website a fun, light-hearted, childlike and playful appeal*/
@@ -11,42 +23,96 @@ h1 {
     font-family: 'Lemonada', cursive; 
     font-size: 2.5em;
     padding: 25px;
-    color: darkorchid;
+    position:relative;
+    text-align: left;
+    color: #9932cc;
+    margin: auto;
 }
-    img {
-    float: left;
-    margin: 0 0 10px 10px;
-}
-      
 
-
-/*Navigation Settings*/
-
-nav ul  {
+h2 { 
+    color: #ff0080;
     text-align: center;
-    color:purple;
-    list-style-type: inline-block;
-     }
+    font-size: 2.5em;
+    font-family: 'Lemonada', cursive; 
+    padding: 25px;
+    position:relative;
+    margin: auto;
+    
+}
+
+     
+    /*Navigation Settings*/
+    
+    
+nav ul li {
+    
+    list-style-type: none;
+    display: inline-block;
+    margin:0;
+    
+}
+
+
+nav ul {
+    text-align:center;
+    color:#e600e6;
+    font-size: 2em;
+    
+    
+}
+
+nav a:link {
+    text-decoration: none;
+    font-family: 'Lemonada', cursive;
+    font-size: 18px;
+    background: #00cc66;
+    padding: 15px 15px;
+    color: #FFF;
+    
+}
+
+nav a:visited {
+    color: #FFF;
+}
+
+nav a:hover {
+    background: #0000ff;
+    color: #33ccff;
+}
 
 li {
-    font-size: 1.5em
+    font-size: 1.5em;
+    list-style-position: outside;
+    margin-left:0.5cm;
+    margin-right:0.5cm;
 }
+
+
 
 /*Comment3: Each paragraph is styled for visually-impaired users*/
 
 p {
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    padding: 15px;
     margin:15px;
-    font-size: 2em;
+    font-size: 2.0em;
     }
 
 /*Comment4:Emoji next to each header is formatted for internal linking*/
 
 
+p3{ 
+    text-align: center;
+    
+}
+    
+    
 
+footer {
+    text-align: center;
+    font-weight: bold;
+    color: #9932cc;
+    font-size: 1.5em;
+}
 
 
 /*Comment5: Email address provided is unclickable because of browser incompatiablity on the internet*/
