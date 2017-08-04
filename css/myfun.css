@@ -2,20 +2,27 @@
 
 body, html {
     
-    height: 100%;
-    margin: 20px;
+    margin: 19px;
     background-color:#9acd32;
+    
 }
+header{
+ margin-top: 0;
+}
+
 
 p2{
     font-style: italic;
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
-    line-height: 100%;
+    line-height: 110%;
+    margin: 50px;
+    float: right;
+    margin-top: 0;
+    padding-right: 25px;
     
-    
-}
+  }
 
 /* Comment2: Selected specific font family to give website a fun, light-hearted, childlike and playful appeal*/
 
@@ -34,21 +41,22 @@ h2 {
     text-align: center;
     font-size: 2.5em;
     font-family: 'Lemonada', cursive; 
-    padding: 25px;
+    padding: 17.5px;
     position:relative;
     margin: auto;
     
 }
 
-     
+   article {
+       margin-bottom: 6px;
+   }  
     /*Navigation Settings*/
     
     
 nav ul li {
     
-    list-style-type: none;
     display: inline-block;
-    margin:0;
+    margin:3px;
     
 }
 
@@ -57,8 +65,9 @@ nav ul {
     text-align:center;
     color:#e600e6;
     font-size: 2em;
+    list-style-type: none;
     
-    
+ 
 }
 
 nav a:link {
@@ -86,7 +95,13 @@ li {
     margin-left:0.5cm;
     margin-right:0.5cm;
 }
-
+ img{
+    padding: 1px;
+    border-style: ridge;
+    border-style: outset;
+    border-color: #ff0000 #00ff00 #0000ff;
+    border-width: medium;
+ }
 
 
 /*Comment3: Each paragraph is styled for visually-impaired users*/
@@ -94,18 +109,19 @@ li {
 p {
     padding: 15px;
     margin:15px;
-    font-size: 2.0em;
+    font-size: 2em;
+    margin-top: 3px;
     }
 
-/*Comment4:Emoji next to each header is formatted for internal linking*/
+/*Comment4: Emoji next to each header is formatted for internal linking*/
 
 
-p3{ 
-    text-align: center;
+p3{
     
+text-indent: 50%;
+font-size: 1.5em; 
+
 }
-    
-    
 
 footer {
     text-align: center;
