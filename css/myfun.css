@@ -2,8 +2,9 @@
 
 body, html {
     
-    margin: 19px;
+    margin: auto;
     background-color:#9acd32;
+    width:auto;
     
 }
 header{
