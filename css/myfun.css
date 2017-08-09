@@ -1,15 +1,12 @@
 /* Comment1: This is external stylesheet for The Fun Christian. Do not Reset*/
 
-body, html {
+body {
     
-    margin: auto;
     background-color:#9acd32;
-    padding: 2px;
+    margin: 25px;
     
 }
-header{
- margin-top: 0;
-}
+
 
 
 p2{
@@ -51,13 +48,15 @@ h2 {
    article {
        margin-bottom: 6px;
    }  
+   
     /*Navigation Settings*/
     
     
 nav ul li {
     
     display: inline-block;
-    margin:3px;
+     margin:1px;
+   
     
 }
 
@@ -67,6 +66,7 @@ nav ul {
     color:#e600e6;
     font-size: 2em;
     list-style-type: none;
+    
     
  
 }
@@ -93,18 +93,20 @@ nav a:hover {
 li {
     font-size: 1.5em;
     list-style-position: outside;
-    margin-left:0.5cm;
+    margin-left: 0.5cm;
     margin-right:0.5cm;
 }
  img{
-    padding-left: 3px;
-    padding-right: 3px;
+    
     border-style: ridge;
     border-style: outset;
     border-color: #ff0000 #00ff00 #0000ff;
     border-width: medium;
-    margin-right: auto;
-    margin-left: auto;
+    position:relative;
+    margin-right: 10px;
+    padding: 0px;
+    
+   
  }
 
 
@@ -117,15 +119,18 @@ p {
     margin-top: 3px;
     }
 
-/*Comment4: Emoji next to each header is formatted for internal linking*/
+/*Comment4: Nav menu is formatted for internal linking*/
 
 
 p3{
     
-text-align:center;
 font-size: 2em; 
 padding: 33px;
-margin-left: 2px;
+float: left;
+text-align: center;
+line-height: 30px;
+
+
 
 }
 
